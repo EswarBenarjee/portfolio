@@ -18,7 +18,7 @@ $(window).bind('scroll', function() {
     }
       if($(window).width() > 993) {
         if($(window).scrollTop() >= $("#skills").offset().top + 500) {
-          if(!test1) {
+          if(test1) {
             move();
             test1=false;
           }

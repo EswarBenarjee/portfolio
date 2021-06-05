@@ -69,15 +69,8 @@ body {
   font-size: 2rem;
 }
 
-.layout .cloud1{
-  position: absolute;
-  right: 10px;
-  top: 80px;
-}
-.layout .cloud2 {
-  position: absolute;
-  left: 50px;
-  bottom: 300px;
+.layout .mountain {
+  width: 60%;
 }
 @media (min-width: 993px) {
   .layout {
