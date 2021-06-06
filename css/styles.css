@@ -72,20 +72,18 @@ body {
 .layout .mountain {
   width: 80%;
 }
-@media (max-width: 993px) {
+@media (min-width: 0px) {
   .layout {
     height: 750px;
   }
   .layout .name {
-    position: absolute;
-    top: 250px;
-    left: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
   .layout .cloud1{
     position: absolute;
     right: 20px;
-    top: 160px;
+    top: 60px;
   }
   .layout .cloud2 {
     position: absolute;
@@ -176,7 +174,7 @@ body {
   list-style: none;
 }
 
-@media  (max-width: 993px) {
+@media  (min-width: 0px) {
   .education-div {
     transition: all 0.5s;
     border-radius: 28px;
@@ -184,8 +182,8 @@ body {
     margin: 30px auto;
     color: #fff;
     width: 90%;
-    height: 430px;
-    padding: auto 150px;
+    height: 370px;
+    padding: auto 50px;
   }
   .education-div li{
     margin: auto auto auto -20px;
@@ -363,7 +361,7 @@ body {
 .testimonials .testimonial-item p {
   width: 100%;
 }
-@media (max-width: 993px) {
+@media (min-width: 0px) {
   .testimonials .testimonial-item p {
     margin-bottom: 100px;
   }
