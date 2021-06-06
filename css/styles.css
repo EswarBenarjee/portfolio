@@ -69,7 +69,7 @@ body {
   font-size: 2rem;
 }
 
-@media (max-width: 0px) {
+@media (max-width: 993px) {
   .layout {
     height: 750px;
   }
@@ -110,8 +110,6 @@ body {
     position: absolute;
     left: 250px;
     bottom: 300px;
-  }
-  .layout .mountain {
   }
 }
 
