@@ -79,10 +79,10 @@ body {
   .layout .cloud1{
     position: absolute;
     right: 20px;
-    top: 100px;
+    bottom: 500px;
   }
   .layout .name {
-    margin-top: 250px;
+    margin-top: 150px;
   }
   .layout .cloud2 {
     position: absolute;
