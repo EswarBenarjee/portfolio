@@ -69,10 +69,7 @@ body {
   font-size: 2rem;
 }
 
-.layout .mountain {
-  width: 80%;
-}
-@media (min-width: 0px) {
+@media (max-width: 0px) {
   .layout {
     height: 750px;
   }
@@ -93,6 +90,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 50px;
+    width: 80%;
   }
 }
 @media (min-width: 993px) {
@@ -112,6 +110,8 @@ body {
     position: absolute;
     left: 250px;
     bottom: 300px;
+  }
+  .layout .mountain {
   }
 }
 
@@ -178,7 +178,7 @@ body {
   list-style: none;
 }
 
-@media  (min-width: 0px) {
+@media  (max-width: 993px) {
   .education-div {
     transition: all 0.5s;
     border-radius: 28px;
@@ -365,7 +365,7 @@ body {
 .testimonials .testimonial-item p {
   width: 100%;
 }
-@media (min-width: 0px) {
+@media (max-width: 993px) {
   .testimonials .testimonial-item p {
     margin-bottom: 100px;
   }
