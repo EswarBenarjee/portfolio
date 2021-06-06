@@ -76,13 +76,13 @@ body {
   .layout {
     height: 750px;
   }
-  .layout .name {
-    margin-top: 250px;
-  }
   .layout .cloud1{
     position: absolute;
     right: 20px;
     top: 100px;
+  }
+  .layout .name {
+    margin-top: 250px;
   }
   .layout .cloud2 {
     position: absolute;
