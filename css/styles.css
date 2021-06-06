@@ -342,11 +342,10 @@ body {
     margin-bottom: 100px;
   }
   .testimonials .testimonial-item {
-    width: 100%;
+    width: 90%;
   }
   .testimonials .testimonial-item .testimonial-img {
     margin: 0 auto;
-    width: 95%;
   }
 }
 
