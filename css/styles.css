@@ -77,13 +77,15 @@ body {
     height: 750px;
   }
   .layout .name {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    left: 100px;
   }
   .layout .cloud1{
     position: absolute;
     right: 20px;
-    top: 60px;
+    top: 150px;
   }
   .layout .cloud2 {
     position: absolute;
@@ -101,10 +103,8 @@ body {
     height: 625px;
   }
   .layout .name {
-    position: absolute;
-    top: 250px;
-    left: 100px;
-    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .layout .cloud1{
     position: absolute;
