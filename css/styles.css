@@ -345,7 +345,7 @@ body {
     width: 100%;
   }
   .testimonials .testimonial-item .testimonial-img {
-    margin: 0 auto;
+    margin: 0 10px;
     width: 100%;
   }
 }
