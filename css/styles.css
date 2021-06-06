@@ -187,7 +187,7 @@ body {
     color: #fff;
     width: 150%;
     height: 370px;
-    padding: auto 50px;
+    padding: 20px 50px;
   }
   .education-div li{
     margin: auto auto auto -20px;
@@ -322,7 +322,7 @@ body {
 }
 
 .testimonials .testimonial-item {
-  height: 800px;
+  height: 600px;
   color: #000;
   text-align: left;
   position: relative;
