@@ -143,7 +143,12 @@ body {
 /* Education */
 .education {
   padding: 50px;
-  margin-left: 50px;
+}
+
+@media (min-width: 993px) {
+  .education {
+    margin-left: 50px;
+  }
 }
 
 .education img {
