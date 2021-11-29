@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Navbar */
+.navbar {
+    background-color: auto;
+  }
+  
+  .navbar .navbar-brand {
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 1px;
+  }
+  
+  #fixed {
+    position: fixed;
+    margin: 0;
+    margin-left: -20px;
+    transition: all 0.9s;
+    background: rgba(55, 64, 85, 0.9);
+    width: 100%;
+    top: 0;
+    z-index: 999;
+  }
+  
+  #fixed .navbar-brand {
+    color: #fff;
+  }
+  
+  #current {
+    color: #106eea;
+  }
+  
+  .navbar a{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .navbar-nav a{
+    font-size: 1rem;
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+    color: powderblue;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .layout {
+    background-color: powderblue;
+    font-family: 'Marck Script', cursive;
+    position: relative;
+  }
+  
+  .layout h1 {
+    font-size: 3rem;
+    line-height: 1;
+    letter-spacing: 5px;
+    font-weight: bold;
+  }
+  .layout h2 {
+    font-size: 2rem;
+  }
+  
+  @media (max-width: 993px) {
+    .layout {
+      height: 750px;
+    }
+    .layout .cloud1{
+      position: absolute;
+      right: 20px;
+      bottom: 500px;
+    }
+    .layout .name {
+      margin-top: 250px;
+    }
+    .layout .cloud2 {
+      position: absolute;
+      left: 50px;
+      bottom: 250px;
+    }
+    .layout .mountain {
+      position: absolute;
+      bottom: 0;
+      left: 50px;
+      width: 80%;
+    }
+  }
+  @media (min-width: 993px) {
+    .layout {
+      height: 625px;
+    }
+    .layout .name {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .layout .cloud1{
+      position: absolute;
+      right: 250px;
+      top: 60px;
+    }
+    .layout .cloud2 {
+      position: absolute;
+      left: 250px;
+      bottom: 300px;
+    }
+  }
+
+  
+/* Contact */
+#contact form label {
+    float: left;
+}
+#contact form input {
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+#contact form .con-sm input {
+    width: 60%;
+}
+#contact form .con-com input {
+    height: 150%;
+    width: 85%;
+}
