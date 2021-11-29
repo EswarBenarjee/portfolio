@@ -15,6 +15,11 @@ body {
   width: 100vw;
   color: #ffffff;
 }
+#home .intro {
+  position: absolute;
+  left: 8vw;
+  top: 50vh;
+}
   
 /* Contact */
 #contact {
