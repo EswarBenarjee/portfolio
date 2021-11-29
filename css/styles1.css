@@ -115,15 +115,16 @@ body {
 
   
 /* Contact */
-#contact form label {
-    float: left;
-}
+#contact {
+  padding: 
+} 
 #contact form input {
     border: 1px solid #000000;
     border-radius: 8px;
 }
 #contact form .con-sm input {
-    width: 60%;
+    height: 60%;
+    width: 69%;
 }
 #contact form .con-com input {
     height: 150%;
