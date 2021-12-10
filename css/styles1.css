@@ -9,7 +9,7 @@ body {
 
 /* HOME */
 #home {
-  background: url("mahess.jpg");
+  background: url("Eswar.jpeg");
   background-size: cover;
   height: 100vh;
   width: 100vw;
@@ -19,6 +19,32 @@ body {
   position: absolute;
   left: 8vw;
   top: 50vh;
+}
+
+/* Navbar */
+.navbar {
+  background-color: auto;
+}
+
+.navbar {
+  font: 1rem;
+  font-family: 'Odibee Sans', cursive;
+  letter-spacing: 1px;
+}
+.navbar .navbar-brand {
+  font: 2rem Bold;
+  font-family: 'Odibee Sans', cursive;
+  letter-spacing: 1px;
+}
+
+/* Intro */
+.intro {
+  text-align: left;
+}
+
+/* About */
+#about p {
+  margin-bottom: 1px;
 }
   
 /* Contact */
