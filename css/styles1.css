@@ -43,6 +43,12 @@ body {
 }
 
 /* About */
+#about {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  background-color: #000000;
+  color: #ffffff;
+}
 #about p {
   margin-bottom: 1px;
 }
@@ -61,4 +67,27 @@ body {
 }
 #contact form .con-com input {
     overflow: scroll;
+}
+
+/* Education */
+#education h2 {
+  color: red;
+  margin-bottom: 3vh;
+}
+
+.edu {
+  background-color: #ffffff;
+  color: #000000;
+}
+.edu {
+  padding: 2vw;
+  text-align: left;
+  box-shadow: 5px 10px 10px 5px red;
+  border-radius: 8px;
+  margin-left: 6vw;
+  margin-bottom: 5vh;
+}
+
+.edu .years {
+  font-weight: lighter;
 }
